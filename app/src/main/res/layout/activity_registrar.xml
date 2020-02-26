@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrarActivity">
+
+     <EditText
+        android:id="@+id/etNombreR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="45dp"
+         android:hint="@string/hint_et_nombre"
+         />
+    <EditText
+        android:id="@+id/etEmailR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etNombreR"
+        android:layout_marginTop="45dp"
+        android:hint="@string/hint_et_email"
+        android:inputType="textEmailAddress"/>
+
+    <Button
+        android:id="@+id/btnGuardarR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etEmailR"
+        android:layout_marginTop="45dp"
+        android:text="@string/txRegistar"
+        android:onClick="GuardarR"
+        />
+
+    <Button
+        android:id="@+id/btnCancelarR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnGuardarR"
+        android:layout_marginTop="45dp"
+        android:text="@string/limpiar"
+        android:onClick="LimpiarR"
+        />
+
+
+</RelativeLayout>

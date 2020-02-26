@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AppPruebaSQLite</string>
+    <string name="txModificar">Modificar</string>
+    <string name="txRegistar">Registar</string>
+    <string name="txBorrar">Borrar</string>
+    <string name="txConsultar">Consultar</string>
+    <string name="hint_et_nombre">Introduce Nombre</string>
+    <string name="hint_et_email">Introduce el Email</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="no_datos">Debes introducir Datos</string>
+    <string name="insertat_ok">Correcto</string>
+    <string name="hint_et_id">Introduce Id</string>
+    <string name="hit_buscarM">Buscar</string>
+    <string name="no_id">Debe introducir un Id</string>
+    <string name="no_conta">Contacto No existe un Id</string>
+    <string name="update_ok">Datos Cambiados</string>
+    <string name="insertat_ok_no">no inserta</string>
+
+</resources>
